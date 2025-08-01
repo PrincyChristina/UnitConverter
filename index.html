@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Unit Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Unit Converter</h1>
+    <select id="conversionType">
+      <option value="length">Length (Meters ↔ Feet)</option>
+      <option value="temperature">Temperature (Celsius ↔ Fahrenheit)</option>
+    </select>
+
+
+    <input type="number" id="inputValue" placeholder="Enter value">
+    <button onclick="convert()">Convert</button>
+
+
+    <p id="result"></p>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
